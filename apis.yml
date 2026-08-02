@@ -1,8 +1,13 @@
 aid: vetic
 name: Vetic
-description: 'Vetic is a company surfaced as a portfolio company of bessemer-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Vetic is a pet healthcare company in India operating a chain of full-service
+  veterinary clinics and hospitals across 11 cities, paired with a consumer mobile
+  app. Founded by Gaurav Ajmera (ex-COO OYO), Vetic offers in-clinic vet consultations,
+  vaccinations, in-house diagnostics (blood work, X-ray, imaging, endoscopy), surgery,
+  physiotherapy, 24/7 emergency and intensive care, grooming, an in-house pharmacy,
+  pet supplies, pet insurance, video vet consultations, digital medical records, and
+  2-hour pet food delivery. It is a consumer (B2C) business with no public developer
+  API surface at this time; this profile captures its public web and app footprint.'
 url: https://raw.githubusercontent.com/api-evangelist/vetic/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +15,32 @@ x-backed-by:
 - bessemer-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Consumer
+- Pet Care
+- Veterinary
+- Pet Healthcare
+- Animal Health
+- Mobile App
+- India
+- Diagnostics
+- Pharmacy
+image: https://vetic-img.s3.ap-south-1.amazonaws.com/quick_commerce//misc/Home+Page.jpg
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +50,28 @@ maintainers:
 common:
 - type: Website
   url: https://vetic.in/
+- type: About
+  url: https://vetic.in/about-us
+- type: Services
+  url: https://vetic.in/our-services
+- type: Blog
+  url: https://vetic.in/blog
+- type: TermsOfService
+  url: https://vetic.in/terms-of-service
+- type: PrivacyPolicy
+  url: https://vetic.in/privacy-policy
+- type: Careers
+  url: https://vetic.in/careers
+- type: Android
+  url: https://play.google.com/store/apps/details?id=com.vetic.vetic
+- type: LinkedIn
+  url: https://in.linkedin.com/company/veticin
+- type: YouTube
+  url: https://www.youtube.com/@veticpetcare
+- type: DomainSecurity
+  url: security/vetic-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
